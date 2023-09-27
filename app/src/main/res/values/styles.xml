@@ -1,0 +1,14 @@
+<!-- styles.xml -->
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <!-- Add other theme attributes as needed -->
+    </style>
+
+    <!-- Define your colors -->
+    <color name="primaryColor">#2196F3</color>
+    <color name="primaryDarkColor">#1976D2</color>
+    <color name="secondaryColor">#FF5722</color>
+</resources>

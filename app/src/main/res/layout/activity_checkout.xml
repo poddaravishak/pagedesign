@@ -1,0 +1,86 @@
+<!-- checkout_form.xml -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- checkout_form.xml -->
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:drawableStart="@drawable/name"
+            android:drawablePadding="16dp"
+            android:inputType="textPersonName"
+            android:background="@drawable/rounded_border_background"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="16dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/rounded_border_background"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Credit Card Number Field -->
+        <EditText
+            android:id="@+id/etCreditCard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Credit Card Number"
+            android:drawableStart="@drawable/card"
+            android:drawablePadding="16dp"
+            android:inputType="number"
+            android:background="@drawable/rounded_border_background"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Security Code Field -->
+        <EditText
+            android:id="@+id/etSecurityCode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Security Code"
+            android:drawableStart="@drawable/security"
+            android:drawablePadding="16dp"
+            android:inputType="number"
+            android:background="@drawable/rounded_border_background"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Expiry Date Field -->
+        <EditText
+            android:id="@+id/etExpiryDate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Expiry Date (MM/YY)"
+            android:drawableStart="@drawable/date"
+            android:drawablePadding="16dp"
+            android:inputType="number"
+
+            android:background="@drawable/rounded_border_background"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:background="@color/black"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
